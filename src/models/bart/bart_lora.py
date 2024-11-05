@@ -61,7 +61,7 @@ training_args = TrainingArguments(
     learning_rate=5e-5,
     per_device_train_batch_size=2,  # Smaller batch size for testing
     per_device_eval_batch_size=2,
-    num_train_epochs=1,  # Fewer epochs for testing
+    num_train_epochs=2,  # Fewer epochs for testing
     weight_decay=0.01,
 )
 

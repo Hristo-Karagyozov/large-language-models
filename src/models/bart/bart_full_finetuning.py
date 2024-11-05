@@ -1,6 +1,7 @@
 from transformers import BartTokenizer, BartForConditionalGeneration, Trainer, TrainingArguments
 from datasets import load_dataset
 import torch
+import json
 import evaluate
 import time
 
@@ -10,8 +11,8 @@ tokenizer = BartTokenizer.from_pretrained(model_name)
 model = BartForConditionalGeneration.from_pretrained(model_name)
 
 # Load a small part of the MultiNews dataset for testing
-train_dataset = load_dataset("multi_news", split="train[:1%]", trust_remote_code=True)  # 1% for testing
-test_dataset = load_dataset("multi_news", split="test[:1%]", trust_remote_code=True)    # 1% for testing
+train_dataset = load_dataset("multi_news", split="train[:20%]", trust_remote_code=True)  # 1% for testing
+test_dataset = load_dataset("multi_news", split="test[:10%]", trust_remote_code=True)    # 1% for testing
 
 # Tokenization function
 def tokenize_function_with_prompt(examples):
@@ -40,12 +41,12 @@ tokenized_test_dataset.set_format(type='torch')
 
 # Define training arguments for full fine-tuning
 training_args = TrainingArguments(
-    output_dir='./results',        # Adjust the path as needed
+    output_dir='./results',
     eval_strategy="epoch",
-    learning_rate=2e-5,            # Lower learning rate for full fine-tuning
+    learning_rate=2e-5,
     per_device_train_batch_size=2,
     per_device_eval_batch_size=2,
-    num_train_epochs=3,            # Increase epochs as needed
+    num_train_epochs=2,
     weight_decay=0.01,
 )
 
@@ -96,3 +97,8 @@ predictions = generate_summaries_with_prompts(tokenized_test_dataset)
 actual_summaries = test_dataset['summary']
 rouge_scores = rouge.compute(predictions=predictions, references=actual_summaries)
 print("ROUGE Scores:", rouge_scores)
+
+output_path = './results/rouge_scores.json'  # Define the path to save results
+with open(output_path, 'w') as f:
+    json.dump(rouge_scores, f)
+print(f"ROUGE Scores saved to {output_path}")

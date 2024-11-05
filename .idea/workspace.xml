@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="629cd908-1436-4cbd-8f9e-8cc95feb9645" name="Changes" comment="" />
+    <list default="true" id="629cd908-1436-4cbd-8f9e-8cc95feb9645" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/checkpoint-225/adapter_model.safetensors" beforeDir="false" afterPath="$PROJECT_DIR$/results/checkpoint-225/adapter_model.safetensors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/checkpoint-225/optimizer.pt" beforeDir="false" afterPath="$PROJECT_DIR$/results/checkpoint-225/optimizer.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/checkpoint-225/training_args.bin" beforeDir="false" afterPath="$PROJECT_DIR$/results/checkpoint-225/training_args.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/bart/bart_full_finetuning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/bart/bart_full_finetuning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/bart/bart_lora.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/bart/bart_lora.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +48,7 @@
     &quot;Python.bart_lora.executor&quot;: &quot;Run&quot;,
     &quot;Python.t5.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/University/Courses/Machine_Learning_for_Industry_Practical/ml_air_pollution_forecast&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -94,7 +105,8 @@
       <workItem from="1730688740954" duration="377000" />
       <workItem from="1730763835909" duration="1337000" />
       <workItem from="1730765404801" duration="2712000" />
-      <workItem from="1730769094503" duration="10321000" />
+      <workItem from="1730769094503" duration="10816000" />
+      <workItem from="1730780407103" duration="17547000" />
     </task>
     <servers />
   </component>
@@ -103,7 +115,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LLMs_Final_Project_3$t5.coverage" NAME="t5 Coverage Results" MODIFIED="1730683125714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
-    <SUITE FILE_PATH="coverage/LLMs_Final_Project_3$bart_full_finetuning.coverage" NAME="bart_full_finetuning Coverage Results" MODIFIED="1730779694213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models/bart" />
-    <SUITE FILE_PATH="coverage/LLMs_Final_Project_3$bart_lora.coverage" NAME="bart_lora Coverage Results" MODIFIED="1730779296854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models/bart" />
+    <SUITE FILE_PATH="coverage/LLMs_Final_Project_3$bart_full_finetuning.coverage" NAME="bart_full_finetuning Coverage Results" MODIFIED="1730803509728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models/bart" />
+    <SUITE FILE_PATH="coverage/LLMs_Final_Project_3$bart_lora.coverage" NAME="bart_lora Coverage Results" MODIFIED="1730802507752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models/bart" />
   </component>
 </project>
