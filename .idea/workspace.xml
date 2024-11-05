@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="629cd908-1436-4cbd-8f9e-8cc95feb9645" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2o1CzAw5hknMwNJne0vocDySdZe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bart_full_finetuning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bart_lora.executor&quot;: &quot;Run&quot;,
+    &quot;Python.t5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/University/Courses/Machine_Learning_for_Industry_Practical/ml_air_pollution_forecast&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\University\Courses\Large_Language_Models\LLMs_Final_Project_3\src\models\t5" />
+      <recent name="F:\University\Courses\Machine_Learning_for_Industry_Practical\LLMs_Final_Project_3\src\models" />
+      <recent name="F:\University\Courses\Machine_Learning_for_Industry_Practical\LLMs_Final_Project_3\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="629cd908-1436-4cbd-8f9e-8cc95feb9645" name="Changes" comment="" />
+      <created>1730027955351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730027955351</updated>
+      <workItem from="1730027968155" duration="1701000" />
+      <workItem from="1730029703995" duration="913000" />
+      <workItem from="1730036167303" duration="796000" />
+      <workItem from="1730036977706" duration="528000" />
+      <workItem from="1730037519637" duration="4153000" />
+      <workItem from="1730041934459" duration="302000" />
+      <workItem from="1730042249760" duration="12816000" />
+      <workItem from="1730116530247" duration="254000" />
+      <workItem from="1730119935360" duration="1193000" />
+      <workItem from="1730139105677" duration="1885000" />
+      <workItem from="1730196647052" duration="11000" />
+      <workItem from="1730290174763" duration="1000" />
+      <workItem from="1730673282563" duration="1533000" />
+      <workItem from="1730675115790" duration="2754000" />
+      <workItem from="1730677912778" duration="622000" />
+      <workItem from="1730678552841" duration="1217000" />
+      <workItem from="1730679962262" duration="7963000" />
+      <workItem from="1730688740954" duration="377000" />
+      <workItem from="1730763835909" duration="1337000" />
+      <workItem from="1730765404801" duration="2712000" />
+      <workItem from="1730769094503" duration="10321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LLMs_Final_Project_3$t5.coverage" NAME="t5 Coverage Results" MODIFIED="1730683125714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/LLMs_Final_Project_3$bart_full_finetuning.coverage" NAME="bart_full_finetuning Coverage Results" MODIFIED="1730779694213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models/bart" />
+    <SUITE FILE_PATH="coverage/LLMs_Final_Project_3$bart_lora.coverage" NAME="bart_lora Coverage Results" MODIFIED="1730779296854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models/bart" />
+  </component>
+</project>
